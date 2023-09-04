@@ -24,7 +24,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar">
                     <a href="/" class="navbar-brand">
-                        <img src="/image/podcast.png" alt="logo" class="logo">
+                        <img src="/image/podcast.png" alt="logo" id="logo">
                         ENEVENTS
                     </a>
                     <ul class="navbar-nav">
@@ -32,7 +32,7 @@
                             <a href="/" class="nav-link">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/" class="nav-link">Create Events</a>
+                            <a href="/events/create" class="nav-link">Create Events</a>
                         </li>
                         <li class="nav-item">
                             <a href="/" class="nav-link">Join</a>
@@ -49,5 +49,7 @@
         <footer>
             my events &copy; 2023 
         </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
