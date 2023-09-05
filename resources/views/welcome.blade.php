@@ -2,5 +2,9 @@
 @section('title', 'My Events')
 
 @section('content')
-<h1>welcome</h1>
+
+@foreach ($events as $event)
+    <p>{{$event->title}}--{{$event->description}}</p>
+@endforeach
+
 @endsection
