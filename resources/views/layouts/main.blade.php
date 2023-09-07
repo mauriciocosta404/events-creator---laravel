@@ -16,39 +16,13 @@
 
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
+        @include('includes.header')
+            @yield('content')
+        @include('includes.footer')
 
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="collapse navbar-collapse" id="navbar">
-                    <a href="/" class="navbar-brand">
-                        <img src="/image/podcast.png" alt="logo" id="logo">
-                        ENEVENTS
-                    </a>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="/" class="nav-link">Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/events/create" class="nav-link">Create Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/" class="nav-link">Join</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/" class="nav-link">Sign Up</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-
-        @yield('content')
-        <footer>
-            my events &copy; 2023 
-        </footer>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>

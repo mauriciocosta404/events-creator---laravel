@@ -119,6 +119,21 @@ img#logo{
     color: #757575;
 }
 
+#event-create-container{
+    padding: 30px;
+}
+
+#event-create-container label{
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#event-create-container input, 
+#event-create-container select, 
+#event-create-container textarea{
+    font-size: 12px;
+}
+
 footer{
     text-align: center;
     background-color: #353E48;
